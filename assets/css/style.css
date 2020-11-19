@@ -1,9 +1,4 @@
-/**
-* Template Name: Bikin - v2.1.0
-* Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -45,13 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  background: #3b4ef8;
+  background: #000;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #0a22f6;
+  background: #3b4ef8;
   color: #fff;
 }
 
@@ -170,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3b4ef8;
+  color: #6C71B9;
 }
 
 .nav-menu .drop-down ul {
@@ -208,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #3b4ef8;
+  color: #6C71B9;
 }
 
 .nav-menu .drop-down > a:after {
@@ -254,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background:#3b4ef8;
+  background:#6C71B9;
   color:#e2e5fe;
   border-radius: 5px;
   padding: 8px 25px 10px 25px;
@@ -268,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #3b4ef8;
+  background: #6C71B9;
   color: #fff;
 }
 
@@ -331,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #3b4ef8;
+  color: #6C71B9;
   text-decoration: none;
 }
 
@@ -409,6 +404,7 @@ margin-top: 0px;
   color: #141d2b;
   width: 60%;
   color: #2d405f;
+    margin-right: 0px;
 }
 
 #hero h2 {
@@ -457,6 +453,12 @@ margin-top: 0px;
   }
 }
 
+
+
+
+.about-hero {
+    margin-top: 10rem!important;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -548,9 +550,13 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .icon-box .icon img {
+    color:#2d405f !important; 
+}
 .services {
-  background: #2d405f;
+  background: #6C71B9;
   padding-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .services .section-title h2, .services .section-title p {
@@ -589,6 +595,9 @@ section {
   transition: all 0.3s;
 }
 
+.services .icon > img {
+    color:#2d405f; 
+}
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
